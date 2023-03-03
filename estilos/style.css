@@ -1,0 +1,225 @@
+@charset "UTFT-8";
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    
+    body{
+        height: 100vh;
+    }
+
+
+    .background{
+        background: url(../imagens/barbearia1.jpg);
+        background-size: cover;
+        height: 100vh;
+
+    }
+
+    nav{
+        display: flex;
+        height: 6rem;
+        background-color: rgb(59, 54, 54);
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    ul{
+        display: flex;
+        gap: 2rem;
+        font-size: .9em;
+        align-items: center;
+    }
+
+    .button{
+        border-radius: 3px;
+        padding: 1.1rem;
+        background-color: #e7b481;
+        color: white;
+    }
+
+    .container-text{
+        padding: 12rem 0 0 13rem;
+    }
+
+    .text > h3{
+        color: white;
+        font-size: 1.1rem;
+        margin-bottom: 32px;
+
+    }
+
+    .text > h1{
+        color: white;
+        margin: 2rem 0 2rem 0;
+        font-size: 4rem;
+    }
+
+    .button-2{
+        border-radius: 3px;
+        padding: 1rem;
+        font-size: 0.8rem;
+        background-color: #e7b481;
+        color: white;
+        margin: 0 0 0 212px;
+    }
+
+    .seta{
+        display: flex;
+        align-items: end;
+        flex-direction: column-reverse;
+    }
+
+    .button-3{
+        display: flex;
+        align-items: end;
+        margin: 2rem 4rem 0 0;
+
+        border-radius: 3px;
+        padding: 10px 7px 10px 7px;
+        font-size: 0.8rem;
+        background-color: #e7b481;
+        color: white;
+    }
+
+    .button-3 > img{
+        width: 1.5rem;
+    }
+
+
+    main{
+        height: 200vh;
+        background-color: #F5F7FA;
+    }
+
+    section{
+        padding-top: 1.5rem;
+    }
+
+       section >h3{
+        text-align: center;
+        padding: 30px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    section >h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .cortes{
+        display: flex;
+        justify-content: center;
+        padding-top: 3.5rem;
+    }
+
+    .cortes > ul > li:hover{
+        transform: translate(4px, -4px);
+        cursor: pointer;
+    }
+
+    .cortes  img{
+        width: 8rem;
+    }
+
+    .cortes h3{
+        text-align: center;
+    }
+
+    .cortes-2{
+        display: flex;
+        justify-content: center;
+        padding-top: 5.5rem;
+    }
+
+    .cortes-2 > ul > li:hover{
+        transform: translate(4px, -4px);
+        cursor: pointer;
+    }
+    
+    .cortes-2  img{
+        width: 8.5rem;
+    }
+
+    .cortes-2 h3{
+        text-align: center;
+    }
+
+    article{
+        background-color: #FFFFFF;
+        height: 35rem;
+        margin-top: 3rem;
+    }
+
+    .preço{
+        margin-left: .5rem;
+    }
+
+    article > h3{
+        text-align: center;
+        padding: 30px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    article > h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .servicos > ul > li{
+        border: 1px solid rgba(139, 135, 135, 0.541);
+        padding: 35px 110px 35px 110px;
+        border-radius: 10px;
+        margin: 30px 0 0 50px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.568);
+    }
+    
+    .preco2-2{
+        display: flex;
+        margin-left: 3.5rem;
+        justify-content: center;
+    }
+
+    aside{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2.5rem;
+    }
+
+    aside .imagem1{
+        padding-left: 4rem;
+    }
+
+
+
+    aside  h3{
+        padding-left: 4rem;
+    }
+
+    footer{
+
+    }
+
+    footer > h1{
+        text-align: center;
+        margin-top: 6rem;
+        font-size: 1.5rem;
+        background-color: #FFFFFF;
+        padding: 1rem;
+    }
+
+    footer a{
+        color: #2fbdeb;
+        ;
+    }
