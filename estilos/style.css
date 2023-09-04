@@ -5,3 +5,7 @@
 @import "./ultilidades/componentes.css";
 @import "./ultilidades/tipografia.css";
 @import "./ultilidades/cores.css";
+
+
+/* HOME */
+@import "./home/introducao.css";

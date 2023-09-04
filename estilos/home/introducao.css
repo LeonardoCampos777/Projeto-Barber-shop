@@ -1,0 +1,64 @@
+.introducao-bg{
+  background: url(/imagens/barbearia1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.introducao{
+  padding: 200px 80px;
+}
+
+.introducao-conteudo{
+  text-shadow: 4px 4px 0px #0000;
+}
+
+.introducao-conteudo p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 32px;
+  text-shadow: 2px 2px 0px black;
+} 
+
+.introducao-conteudo h1{
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 32px;
+  text-shadow: 2px 2px 0px black;
+}
+
+@media (max-width: 750px){
+  .introducao{
+    padding: 150px 60px;
+  }
+
+  .introducao-conteudo p {
+    font-size: 1.1rem;
+  }
+
+  .introducao-conteudo h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 500px){
+  .introducao-bg{
+    height: 500px;
+  }
+
+  .introducao{
+    padding: 50px 40px;
+  }
+
+  .introducao-conteudo p {
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+
+  .introducao-conteudo h1 {
+    margin-bottom: 16px;
+    font-size: 3rem;
+  }
+
+}
