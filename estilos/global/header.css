@@ -75,6 +75,7 @@
     
     padding-top: 12px;
     padding-bottom: 12px;
+    display: none;
   }
 
   .header-menu button a{

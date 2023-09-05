@@ -44,7 +44,7 @@
 
 @media (max-width: 500px){
   .introducao-bg{
-    height: 500px;
+    height: 100vh;
   }
 
   .introducao{
