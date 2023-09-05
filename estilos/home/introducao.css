@@ -60,5 +60,8 @@
     margin-bottom: 16px;
     font-size: 3rem;
   }
-
+  
+  .introducao-conteudo h1 br{
+    display: none;
+  }
 }
