@@ -46,16 +46,14 @@
   .introducao{
     padding: 250px 40px;
   }
-
 }
 
 @media (max-width: 550px){
   .introducao-bg{
-    height: 100vh;
   }
 
   .introducao{
-    padding: 50px 40px;
+    padding: 150px 40px;
   }
 
   .introducao-conteudo p {
@@ -70,5 +68,16 @@
   
   .introducao-conteudo h1 br{
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao{
+    padding: 120px 40px;
+  }
+
+  .introducao-conteudo h1 {
+    margin-bottom: 16px;
+    font-size: 2.8rem;
   }
 }
