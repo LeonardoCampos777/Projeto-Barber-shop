@@ -1,0 +1,27 @@
+.sobre-bg{
+  background-image: url(../../imagens/tijolinhos.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  box-shadow: inset 30px -13px 131px 180px #0f0f0f;
+}
+
+
+.sobre-conteudo{
+  text-align: center;
+  padding-top: 120px;
+}
+
+.sobre-conteudo h1{
+  font-size: 2rem;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+
+}
+
+.sobre-conteudo p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 50ch;
+  margin: auto;
+  padding-bottom: 20px;
+}
