@@ -12,8 +12,6 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .header-menu{
@@ -55,6 +53,11 @@
   background-color: #dfa364;
 }
 
+@media (max-width: 675px){
+  .header{
+    padding-bottom: 20px;
+  }
+}
 
 @media (max-width: 550px){
   .header-bg{
@@ -66,6 +69,7 @@
   }
   .header{
     gap: 10px;
+    padding-bottom: 10px;
   }
 
   .header-menu{
