@@ -15,7 +15,6 @@
   font-size: 2rem;
   padding-bottom: 40px;
   text-transform: uppercase;
-
 }
 
 .sobre-conteudo p{
@@ -24,4 +23,20 @@
   max-width: 50ch;
   margin: auto;
   padding-bottom: 20px;
+}
+
+@media (max-width:500px){
+  .sobre-conteudo{
+    padding-top: 80px;
+    
+  }
+
+  .sobre-conteudo h1{
+    font-size: 1.6rem;
+  }
+
+  .sobre-conteudo p{
+    font-size: 1rem;
+    color: #A7AAB2;
+  }
 }
