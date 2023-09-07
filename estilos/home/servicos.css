@@ -106,7 +106,20 @@
   .servicos-conteudo h1::after{
     width: 20%;
   }
+
+  .servicos-lista{
+    gap: 40px;
+  }
+
+  .servicos-lista li {
+    padding: 20px 40px;
+  }
+
+  .servicos-lista li img{
+    width: 80px;
+  }
 }
+
 @media (max-width: 400px){
   .servicos-conteudo h1::before{
     width: 5%;
@@ -116,3 +129,5 @@
     width: 5%;
   }
 }
+
+
