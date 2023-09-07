@@ -1,6 +1,6 @@
 
 .header-bg{
-  background-color: #3b3636;
+  background-color: #1a1423c9;
   position: fixed;
   width: 100vw;
 
@@ -22,7 +22,7 @@
 }
 
 .header-menu a{
-  color: #fff;
+  color: var(--cor-0);
   text-transform: uppercase;
   font-size: 0.9.1rem;
   font-weight: bolder;
@@ -35,7 +35,7 @@
   display: block;
   height: 3px;
   width: 0px;
-  background-color: #efc59d;
+  background-color: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
@@ -50,12 +50,13 @@
 }
 
 .button:hover{
-  background-color: #dfa364;
+  background-color: #8c001a;
 }
 
 @media (max-width: 675px){
   .header-bg{
     position: initial;
+    background-color: #111111;
   }
 
   .header{

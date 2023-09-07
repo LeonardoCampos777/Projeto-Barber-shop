@@ -15,6 +15,33 @@
   font-size: 2rem;
   padding-bottom: 40px;
   text-transform: uppercase;
+  display: table;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+
+.sobre-conteudo h1::before{
+  left: -15px;
+  transform: translate(-100%, 0);
+}
+
+.sobre-conteudo h1::after{
+  right: -15px;
+  transform: translate(100%, 0);
+}
+
+.sobre-conteudo h1::before,
+.sobre-conteudo h1::after{
+  content: "";
+  top: 30%;
+  width: 50%;
+  height: 2px;
+  margin-top: -2.5px;
+  background-color: #9a0205;
+  display: block;
+  position: absolute;
 }
 
 .sobre-conteudo p{
@@ -23,6 +50,39 @@
   max-width: 50ch;
   margin: auto;
   padding-bottom: 20px;
+  color: #A7AAB2;
+}
+
+
+@media (max-width: 780px){
+  .sobre-conteudo h1::before{
+    top: 30%;
+    width: 15%;
+  }
+
+  .sobre-conteudo h1::after{
+    top: 30%;
+    width: 15%;
+  }
+}
+
+@media (max-width: 520px){
+  .sobre-conteudo h1::before{
+    width: 10%;
+  }
+
+  .sobre-conteudo h1::after{
+    width: 10%;
+  }
+}
+@media (max-width: 400px){
+  .sobre-conteudo h1::before{
+    width: 3%;
+  }
+
+  .sobre-conteudo h1::after{
+    width: 3%;
+  }
 }
 
 @media (max-width:500px){
