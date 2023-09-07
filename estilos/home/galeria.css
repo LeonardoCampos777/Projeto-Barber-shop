@@ -71,7 +71,7 @@
 
 @media (max-width:640px){
   .galeria-lista img {
-    aspect-ratio: 6/20;
+    aspect-ratio: 6/15;
     min-width: 0px;
     flex: 1 1 10px;
     object-fit: cover;
