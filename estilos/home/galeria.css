@@ -52,7 +52,12 @@
   transition: .7s;
 }
 
-.galeria-lista img[src$=".jpg"] {
+.galeria-lista img:hover{
+  flex: 1 1 100px;
+  opacity: 1;
+}
+
+.galeria-lista img[src$=".jpg"]{
   border-radius: 0px;
 }
 
@@ -64,9 +69,14 @@
   border-radius: 0px 4px 4px 0px;
 }
 
-
-
-img:hover{
-  flex: 1 1 100px;
-  opacity: 1;
+@media (max-width:640px){
+  .galeria-lista img {
+    aspect-ratio: 6/20;
+    min-width: 0px;
+    flex: 1 1 10px;
+    object-fit: cover;
+    opacity: .5;
+    transition: .7s;
+  }
 }
+
