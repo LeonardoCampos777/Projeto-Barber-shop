@@ -105,11 +105,11 @@
 
   .contato-formulario input,
   .contato-formulario select{
-    padding: 10px 40px;
+    padding: 10px 35px;
   }
 
   .contato-formulario textarea{
-    max-width: 300px;
+    max-width: 350px;
   }
 
 }
