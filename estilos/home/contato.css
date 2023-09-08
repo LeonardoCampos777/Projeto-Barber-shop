@@ -60,14 +60,13 @@
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
+  background-color: var(--cor-5);
+  color: var(--cor-0);
   padding: 10px 80px;
   margin-bottom: 40px;
   border: 2px solid #767676;
   border-radius: 4px;
-  background-color: var(--cor-5);
-  color: var(--cor-0);
 }
-
 
 .contato-formulario textarea{
   font-family: 'Poppins', sans-serif;
@@ -75,10 +74,44 @@
   background-color: var(--cor-5);
   color: var(--cor-0);
   border: 2px solid #767676;
-  border-radius: 4px;
   margin-bottom: 10px;
+  border-radius: 4px;
 }
 
 .contato-formulario [ type="submit"]{
   border: 3px solid #9a0205;
 }
+
+@media (max-width: 780px){
+  .servicos-conteudo h1::before{
+    top: 30%;
+    width: 40%;
+  }
+
+  .servicos-conteudo h1::after{
+    top: 30%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 520px){
+  .contato-conteudo h1::before{
+    width: 20%;
+  }
+
+  .contato-conteudo h1::after{
+    width: 20%;
+  }
+}
+
+@media (max-width: 400px){
+  .contato-conteudo h1::before{
+    width: 5%;
+  }
+
+  .contato-conteudo h1::after{
+    width: 5%;
+  }
+}
+
+
