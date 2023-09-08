@@ -1,11 +1,12 @@
 .galeria{
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .galeria h1{
   font-size: 2.3rem;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 85px;
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 3px;
@@ -28,7 +29,7 @@
 .galeria h1::before,
 .galeria h1::after{
   content: "";
-  top: 50%;
+  top: 37%;
   width: 70%;
   height: 2px;
   margin-top: -2.5px;
@@ -69,7 +70,12 @@
   border-radius: 0px 4px 4px 0px;
 }
 
+
 @media (max-width:640px){
+  .galeria{
+    padding-top: 40px;
+  }
+  
   .galeria-lista img {
     aspect-ratio: 6/15;
     min-width: 0px;
@@ -78,5 +84,17 @@
     opacity: .5;
     transition: .7s;
   }
+
+  .galeria h1::before,
+  .galeria h1::after{
+    width: 40%;
 }
 
+}
+
+@media (max-width:470px){
+  .galeria h1::before,
+  .galeria h1::after{
+    width: 20%;
+  }
+}

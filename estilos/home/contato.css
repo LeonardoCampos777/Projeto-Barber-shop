@@ -1,0 +1,52 @@
+.contato-bg{
+  background-color: var(--cor-5);
+}
+
+.contato{
+  padding-top: 80px;
+}
+
+.contato-conteudo h1{
+  font-size: 2.3rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  display: table;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contato-conteudo h1::before{
+  left: -15px;
+  transform: translate(-100%, 0);
+}
+
+.contato-conteudo h1::after{
+  right: -15px;
+  transform: translate(100%, 0);
+}
+
+.contato-conteudo h1::before,
+.contato-conteudo h1::after{
+  content: "";
+  top: 50%;
+  width: 70%;
+  height: 2px;
+  margin-top: -2.5px;
+  background-color: #9a0205;
+  display: block;
+  position: absolute;
+}
+
+.contato-conteudo p{
+  font-size: 1.3rem;
+  color: var(--cor-0);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding-bottom: 80px;
+}

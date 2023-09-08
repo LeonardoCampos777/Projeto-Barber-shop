@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&family=Montserrat:wght@500;600&family=Poppins:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&family=Montserrat:wght@500;600&family=Poppins:wght@300;400&family=Roboto&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="estilos/style.css">
   <title>Barbearia</title>
 </head>
+
 <body>
   <header class="header-bg">
     <div class="header container">
@@ -39,14 +43,19 @@
     <div class="sobre container">
       <div class="sobre-conteudo font-poppins cor-0">
         <h1 class="font-bigtext">D.O.N. Barber & Beer</h1>
-        <p class="cor-4">Conduzido por profissionais qualificados e experientes, utilizamos técnicas tradicionais, com uso de navalha, toalhas quentes, cadeiras com lavatório e produtos de alta qualidade em todos os nossos serviços. Um momento para relaxar, socializar e cuidar de si mesmo</p>
-        <p>Com decoração inspirada no estilo das barbearias e pubs de Londres, a casa conta com coquetelaria (com grande variedade de destilados, cervejas e drinks exclusivos).</p>
-        <p>cozinha com petiscos e refeições; tabacaria completa com mais de 300 modelos de charutos nacionais e internacionais; e nosso cigar lounge - um espaço ainda mais intimista, equipado para os amantes de charutos desfrutarem de momentos especiais, sozinhos ou acompanhados de amigos próximos.</p>
+        <p class="cor-4">Conduzido por profissionais qualificados e experientes, utilizamos técnicas tradicionais, com
+          uso de navalha, toalhas quentes, cadeiras com lavatório e produtos de alta qualidade em todos os nossos
+          serviços. Um momento para relaxar, socializar e cuidar de si mesmo</p>
+        <p>Com decoração inspirada no estilo das barbearias e pubs de Londres, a casa conta com coquetelaria (com grande
+          variedade de destilados, cervejas e drinks exclusivos).</p>
+        <p>cozinha com petiscos e refeições; tabacaria completa com mais de 300 modelos de charutos nacionais e
+          internacionais; e nosso cigar lounge - um espaço ainda mais intimista, equipado para os amantes de charutos
+          desfrutarem de momentos especiais, sozinhos ou acompanhados de amigos próximos.</p>
       </div>
     </div>
   </article>
 
-  <article class="servicos-bg" id="servicos">
+  <article class="servicos-bg" id="servicos" aria-label="servicos">
     <div class="servicos container">
       <div class="servicos-conteudo">
         <h1 class="font-bigtext cor-0">Serviços</h1>
@@ -75,7 +84,7 @@
     </div>
   </article>
 
-  <section class="galeria-bg" >
+  <section class="galeria-bg" aria-label="galeria">
     <div class="galeria container " id="galeria">
       <h1 class="font-bigtext cor-2">Galeria</h1>
       <div class="galeria-lista">
@@ -86,5 +95,40 @@
       </div>
     </div>
   </section>
+
+  <article class="contato-bg">
+    <div class="contato container">
+      <div class="contato-conteudo">
+        <h1 class="font-bigtext cor-0">Contato</h1>
+        <p class="font-bigtext cor-0">Entre em contato também através do formulário abaixo.</p>
+        <form class="contato-formulario" action="./" method="post">
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome">
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+          </div>
+          <div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="telefone">
+          </div>
+          <div>
+            <select name="opcoes" id="opcoes">
+              <option value="assunto">-ESCOLHA UMA OPÇÃO</option>
+              <option value="assunto">ASSUNTO</option>
+              <option value="assunto">CONTATO</option>
+              <option value="assunto">DÚVIDA</option>
+            </select>
+          </div>
+          <div>
+            <textarea name="mensagem" id="mensagem" cols="50" rows="14" placeholder="Mensagem:"></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+  </article>
 </body>
+
 </html>
