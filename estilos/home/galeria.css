@@ -95,6 +95,7 @@
 @media (max-width:470px){
   .galeria h1::before,
   .galeria h1::after{
-    width: 20%;
-  }
+    top: 37%;
+    width: 40%;
+}
 }
