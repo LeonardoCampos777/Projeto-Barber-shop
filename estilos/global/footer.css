@@ -1,0 +1,18 @@
+.footer-bg{
+  background-color: var(--cor-5);
+  padding-bottom: 40px;
+}
+
+.footer-conteudo p{
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 920px){
+.footer-conteudo p {
+    padding-bottom: 50px;
+}
+}
