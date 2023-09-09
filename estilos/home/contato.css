@@ -81,6 +81,7 @@
 
 .contato-formulario [ type="submit"]{
   border: 3px solid #9a0205;
+  cursor: pointer;
 }
 
 @media (max-width: 780px){
