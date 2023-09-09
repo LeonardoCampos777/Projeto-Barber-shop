@@ -4,6 +4,7 @@
 
 .contato{
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .contato-conteudo h1{
@@ -121,6 +122,10 @@
 
   .contato-conteudo h1::after{
     width: 5%;
+  }
+
+  .contato-conteudo p{
+    font-size: 1.2rem;
   }
 }
 
