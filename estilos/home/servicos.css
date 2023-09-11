@@ -113,14 +113,6 @@
 }
 
 @media (max-width: 520px){
-  .servicos-conteudo h1::before{
-    width: 20%;
-  }
-
-  .servicos-conteudo h1::after{
-    width: 20%;
-  }
-
   .servicos-lista{
     gap: 40px;
   }
@@ -134,14 +126,5 @@
   }
 }
 
-@media (max-width: 400px){
-  .servicos-conteudo h1::before{
-    width: 5%;
-  }
-
-  .servicos-conteudo h1::after{
-    width: 5%;
-  }
-}
 
 
