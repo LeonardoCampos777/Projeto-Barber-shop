@@ -102,12 +102,12 @@
 
 @media (max-width: 780px){
   .servicos-conteudo h1::before{
-    top: 30%;
+    top: 50%;
     width: 40%;
   }
 
   .servicos-conteudo h1::after{
-    top: 30%;
+    top: 50%;
     width: 40%;
   }
 }
