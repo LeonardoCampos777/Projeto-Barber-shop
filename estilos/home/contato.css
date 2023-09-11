@@ -84,17 +84,6 @@
   cursor: pointer;
 }
 
-@media (max-width: 780px){
-  .servicos-conteudo h1::before{
-    top: 30%;
-    width: 40%;
-  }
-
-  .servicos-conteudo h1::after{
-    top: 30%;
-    width: 40%;
-  }
-}
 
 @media (max-width: 520px){
   .contato-conteudo h1::before{
@@ -111,7 +100,7 @@
   }
 
   .contato-formulario textarea{
-    max-width: 350px;
+    max-width: 279px;
   }
 
 }
