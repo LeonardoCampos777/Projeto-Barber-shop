@@ -16,7 +16,6 @@ function initAnimacaoScroll1() {
         li.classList.remove("ativo");
       }
     };
-
   window.addEventListener("scroll", animaScroll);
 }
 initAnimacaoScroll1();
